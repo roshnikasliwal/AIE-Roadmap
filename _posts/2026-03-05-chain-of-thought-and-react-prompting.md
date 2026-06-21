@@ -60,12 +60,12 @@ Provide examples where the correct reasoning chain is demonstrated, then let the
 
 ### Zero-Shot CoT vs Few-Shot CoT
 
-| | Zero-Shot CoT | Few-Shot CoT |
-|---|---|---|
-| **Setup** | Add "think step by step" | Provide examples with reasoning chains |
-| **Effort** | Minimal | Requires crafting examples |
-| **Reliability** | Good | Better |
-| **Best for** | Quick improvement | Consistent, specific reasoning patterns |
+|                 | Zero-Shot CoT            | Few-Shot CoT                            |
+| --------------- | ------------------------ | --------------------------------------- |
+| **Setup**       | Add "think step by step" | Provide examples with reasoning chains  |
+| **Effort**      | Minimal                  | Requires crafting examples              |
+| **Reliability** | Good                     | Better                                  |
+| **Best for**    | Quick improvement        | Consistent, specific reasoning patterns |
 
 ## ReAct Prompting
 
@@ -136,12 +136,12 @@ if response.choices[0].message.tool_calls:
 
 ### CoT vs ReAct
 
-| | Chain of Thought | ReAct |
-|---|---|---|
-| **Actions** | None — reasoning only | Calls external tools |
-| **Grounding** | Model's internal knowledge | External observations |
-| **Best for** | Reasoning, math, analysis | Research, multi-step tasks requiring real data |
-| **Use in agents?** | As reasoning component | As the overall agent loop |
+|                    | Chain of Thought           | ReAct                                          |
+| ------------------ | -------------------------- | ---------------------------------------------- |
+| **Actions**        | None — reasoning only      | Calls external tools                           |
+| **Grounding**      | Model's internal knowledge | External observations                          |
+| **Best for**       | Reasoning, math, analysis  | Research, multi-step tasks requiring real data |
+| **Use in agents?** | As reasoning component     | As the overall agent loop                      |
 
 ## Combining CoT and ReAct
 
