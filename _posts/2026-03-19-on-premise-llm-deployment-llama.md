@@ -1,6 +1,6 @@
 ---
 title: "On-Premise LLM Deployment: Running Llama 3 on Your Own Infrastructure"
-date: 2026-04-19 09:00:00 +0530
+date: 2026-03-19 09:00:00 +0530
 categories: [AI, LLM Engineering]
 tags: [llama, on-premise, vllm, docker, kubernetes, self-hosted, python, llm-engineering-series]
 mermaid: true
