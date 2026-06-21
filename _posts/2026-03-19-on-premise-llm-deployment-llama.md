@@ -12,14 +12,14 @@ This post covers the full stack: model selection, inference server setup, Docker
 
 ## When to Self-Host
 
-| Driver | Cloud API | Self-Hosted |
-|---|---|---|
-| **Data sensitivity** | Sensitive data goes off-prem | All data stays on your infra |
-| **Regulatory** | Standard compliance | HIPAA, GDPR, DPDP Act, FedRAMP |
-| **Cost at scale** | Linear with tokens | Fixed infra + marginal electricity |
-| **Latency** | 200-2000ms typical | < 100ms p99 possible |
-| **Customization** | Fine-tuning via API | Full control over training, LoRA |
-| **Availability** | Dependent on provider SLA | Controlled by your infra team |
+| Driver               | Cloud API                    | Self-Hosted                        |
+| -------------------- | ---------------------------- | ---------------------------------- |
+| **Data sensitivity** | Sensitive data goes off-prem | All data stays on your infra       |
+| **Regulatory**       | Standard compliance          | HIPAA, GDPR, DPDP Act, FedRAMP     |
+| **Cost at scale**    | Linear with tokens           | Fixed infra + marginal electricity |
+| **Latency**          | 200-2000ms typical           | < 100ms p99 possible               |
+| **Customization**    | Fine-tuning via API          | Full control over training, LoRA   |
+| **Availability**     | Dependent on provider SLA    | Controlled by your infra team      |
 
 Self-hosting makes sense when: data cannot leave your VPC, you need < 100ms latency, or you're doing > 1M requests/day (cost crossover point varies by model and provider).
 
@@ -501,4 +501,4 @@ print(f"Tokens/sec: {result.tokens_per_second:.0f}")
 
 ---
 
-*Part of the [LLM Engineering for Backend Developers series](/tags/llm-engineering-series/) — production patterns for Python engineers building LLM-powered APIs.*
+*Part of the [LLM Engineering for Backend Developers series](({{ site.baseurl }}/tags/llm-engineering-series/) — production patterns for Python engineers building LLM-powered APIs.*
