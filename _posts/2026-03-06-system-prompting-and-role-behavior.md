@@ -196,4 +196,4 @@ For conceptual questions: Direct answer + example if helpful
 
 ---
 
-*Part of the [AI Engineer Roadmap series](/tags/roadmap/) — following the structure from [roadmap.sh/ai-engineer](https://roadmap.sh/ai-engineer).*
+*Part of the [AI Engineer Roadmap series]({{ site.baseurl }}/tags/roadmap/) — following the structure from [roadmap.sh/ai-engineer](https://roadmap.sh/ai-engineer).*
